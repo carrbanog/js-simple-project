@@ -1,0 +1,5 @@
+  console.log(e.target.parentElement.parentElement.parentElement);
+  이 코드 대신
+  const row = e.target.closest("tr"); 이 코드가 더 깔끔
+  가장 가까운 tr요소 반환
+  console.log(row);
